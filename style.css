@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+#div1 {
+background-color:rgb(216, 216, 60);
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+height:10vh;
+width:100%;
+font-size: 22px; 
+font-family: 'poppins',sans-serif;
+font-weight: bold ;
+position: fixed;
+box-shadow:2px 2px 6px rgb(212, 212, 197);
+}
+#div1 a{
+text-decoration: none;
+color: #dc0bf3;
+margin: 8px;
+position: relative;
+}
+#div1 a:hover{
+    color: #750462;
+}
+#div1 a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #750462;
+    position:absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 0.5s;
+}
+#div1 a:hover::after{
+  width: 100%;
+  
+}
+#div2 {
+    
+    height: 100vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    color: black;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    font-size: 30px;
+    font-family: 'Roboto Slab',
+        serif;
+    text-shadow: 2px 1px whitesmoke;
+    }
+#div2 img {
+position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+#div2 h1{
+  margin-right: 454px;
+  font-size: 2rem;
+  font-weight: bolder;
+  animation: name 2s linear infinite ;
+}
+@keyframes name {
+    0%{
+font-size: 2.5rem;
+    }
+    25%{
+        font-size:3rem;
+    }
+    
+}
+
+/* ------about----- */
+#div3{
+    display: flex;
+    /* flex-direction: row;   */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    align-items: center;
+   
+}
+#div3 img{
+    height: 50vh;
+    margin-top: 15vh;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 5px green solid;
+}
+#div3 .about{
+    margin-top: 15vh;
+    margin-right: 40px;
+    width: 50vw;;
+}
+#div3 .about h1{
+    
+    font-family: 'PT Sans', sans-serif;
+    /* font-display:bold; */
+    margin-bottom: 10px;
+    color: azure;
+    text-shadow: 2px 2px yellowgreen;
+}
+#div3 .about h3{
+    padding: 2px 2px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+}
+#div4{
+    /* border: #750462 solid; */
+  /* position: absolute */
+    /* height:65vh; */
+    /* width: 100vw; */
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#div4 h1{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    height: 10vh;
+    text-shadow: 2px 2px yellowgreen;
+}
+#div4 #im{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    /* height: 50vh; */
+}
+#div4 img{
+    /* margin-top: 20vh; */
+    height: 35vh;
+    width: 20vw;
+    box-shadow: 6px 6px 10px rgba(244, 244, 43, 0.6),-6px -6px 10px rgba(105, 52, 231, 0.4)
+    ;
+    border-radius: 15px;
+    
+}
+
+#div4 img:hover{
+    background-color: #f8f2ef;
+}
+#div5{
+    /* height: 80vh; */
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#div5  h1 {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    height: 10vh;
+    text-shadow: 2px 2px yellowgreen;
+}
+#div5 .proj{
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: space-evenly;
+    align-items: center;
+   
+    margin-top: 5vh;
+}
+#div5 .card{
+    transition: all 0.5s ease-in-out;
+    height: 72vh;
+}
+#div5 .card:hover{
+    
+    transform: scale(1.1);
+    border:#e9e32e 6px solid;
+    background: #e7a4dc;
+}
+/* ---contact---- */
+#div6{
+    font-family: 'poppins', sans-serif;
+    flex-wrap: wrap;
+}
+#div6 h1 {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'PT Sans', sans-serif;
+    height: 10vh;
+    text-shadow: 2px 2px yellowgreen;
+}
+#div6 .maill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+flex-wrap: wrap;
+}
+#div6 .maill nav{
+    /* margin-top: 100px ; */
+    margin-left: 250px;
+    font-weight: 800;
+    font-size: 5rem;
+}
+#div6 .maill nav a{
+    color: aliceblue;
+}
+#div6 .maill nav a:unvisited{
+    color: rgb(232, 171, 221);
+}
+#div6 .maill nav a:visited{
+    color:bisque;
+}
+#div6 .maill form{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+#div6 .maill form input, select, textarea{
+    padding: 1.4rem;
+    border:     1.5px solid rgb(250, 104, 75);
+    box-shadow: -2px -1px 10px rgba(250, 133, 75,0.6),2px 1px 10px rgba(250, 133, 75,0.7);
+}
+#div6 .maill form textarea{
+    height: 7rem;
+}
+#div6 .maill form button{
+    height: 2rem;
+    width: 7rem;    
+    cursor: pointer;
+    background-color: #673de6;
+    color: white;
+    margin-bottom: 5vh;
+}
+/* --footor-- */
+#div7{
+    height: 5vh;
+    width: 100vw;
+ background-color:rgb(106, 206, 86);
+display: flex;
+font-family: 'poppins', sans-serif;
+}
+#div7 a{
+    margin-top: 6px;
+    color: purple;
+    margin-left: 20px;
+font-weight: bold;
+    text-decoration: none;
+}
+
+/* ------media responsive----- */
+@media screen and (max-width:1077px) {
+    #div3 img {
+        margin-left: 0;
+    }
+    #div3 .about{
+        margin-right: 0;
+    }
+    #div3 {
+        left: 0;
+        justify-content: space-around;
+    }
+    #div6 .maill nav{
+        margin:0;
+        /* left: 0; */
+    }
+    #div6 .maill form{
+margin: 0;
+    }
+    #div6 .maill{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:743px){
+    #div2 h1{
+        margin-left: 34px;
+    }
+    #div3 img{
+        margin-left: 0;
+    }
+    #div3{
+        left: 0;
+        justify-content: center;
+        
+    }
+}
+@media screen and (max-width:590px) {
+    #div2 h1 {
+        margin-left: 265px;
+    }
+    #div5 .card{
+        margin-bottom: 30px;
+       
+    }
+}
+
+
