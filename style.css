@@ -54,20 +54,21 @@ position: relative;
     height: 100vh;
     display: flex;
     /* flex-wrap: wrap; */
-    color: black;
+    color: rgb(252, 238, 243);
     align-items: center;
     justify-content: center;
     width:100vw;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Roboto Slab',
         serif;
-    text-shadow: 2px 1px whitesmoke;
+    text-shadow: 3px 1px rgba(221, 205, 196, 0.648);
     }
 #div2 img {
 position: absolute;
     height: 100vh;
     width: 100vw;
     z-index: -1;
+    opacity: 0.34;
 }
 #div2 h1{
   margin-right: 454px;
