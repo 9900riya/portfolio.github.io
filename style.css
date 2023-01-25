@@ -241,8 +241,8 @@ flex-wrap: wrap;
 }
 #div6 .maill form input, select, textarea{
     padding: 1.4rem;
-    border:     1.5px solid rgb(250, 104, 75);
-    box-shadow: -2px -1px 10px rgba(250, 133, 75,0.6),2px 1px 10px rgba(250, 133, 75,0.7);
+    border:     1.5px solid rgb(206, 146, 134);
+    box-shadow: -2px -1px 10px rgba(218, 213, 210, 0.345),2px 1px 10px rgba(110, 56, 39, 0.479);
 }
 #div6 .maill form textarea{
     height: 7rem;
